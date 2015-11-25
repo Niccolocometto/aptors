@@ -36,7 +36,7 @@ app.post('/',  upload.single('datas'),function(req, res){
 			  }
 			  console.log('Upload successful!  Server responded with:', body);
 			  res.send(body);
-			  fs.remove
+			  
 			});
  
 });  
